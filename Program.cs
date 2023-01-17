@@ -5,7 +5,7 @@ Console.Write("Enter the number of fares, in even, that need to be entered: ");
 int evenFares = Convert.ToInt32(Console.ReadLine());
 int n = oddFares + evenFares;
 
-double[] fares = new double[n];
+double[] fares = new double[n*2];
 double singleFare = 0;
 int odd = 0;
 int even = 1;
